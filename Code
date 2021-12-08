@@ -1,0 +1,7 @@
+paint = int(input())
+badge=int(input())
+dollar = int(input())
+
+pokedollars = ((paint//badge)*dollar)+(paint%badge)
+
+print(pokedollars)
